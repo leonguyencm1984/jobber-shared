@@ -18,11 +18,11 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@leonardnhan/jobber-shared",
+  "name": "@leonguyencm1984/jobber-shared",
   "author": "Leonard Nhan",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/leonguyencm1984/jobber-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
