@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.3.4",
   "license": "MIT",
   "types": "./src/index.d.ts",
   "description": "Helpers library for Jobber app",
