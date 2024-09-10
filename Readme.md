@@ -1,2 +1,0 @@
-Jobber helper library token 
-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
