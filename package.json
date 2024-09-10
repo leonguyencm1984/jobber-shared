@@ -9,7 +9,7 @@
     "build:esm": "NODE_ENV=production BABEL_ENV=esm babel src --presets=./scripts/babel-preset.js --extensions .ts,.tsx --ignore src/**/*.specs.tsx --out-dir build/esm --source-maps"
   },
   "engines": {
-    "node": "20.x"
+    "node": "^16.x"
   },
   "prettier": {
     "printWidth": 80,
