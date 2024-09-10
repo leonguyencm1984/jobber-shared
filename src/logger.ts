@@ -32,4 +32,4 @@ export const winstonLogger = (elasticsearchNode: string, name: string, level: st
       transports: [new winston.transports.Console(options.console), esTransport]
     });
     return logger;
-  }
+}
