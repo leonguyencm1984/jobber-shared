@@ -1,15 +1,13 @@
 {
-  "version": "0.4.4",
-  "license": "MIT",
+  "version": "0.4.5",
+  "license": "UNLICENSED",
   "types": "./src/index.d.ts",
   "description": "Helpers library for Jobber app",
+  "type": "module",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm && tsc --outDir build/src && node scripts/build-package.js",
     "build:cjs": "NODE_ENV=production BABEL_ENV=cjs babel src --presets=./scripts/babel-preset.js --extensions .ts,.tsx --ignore src/**/*.specs.tsx --out-dir build/cjs --source-maps",
     "build:esm": "NODE_ENV=production BABEL_ENV=esm babel src --presets=./scripts/babel-preset.js --extensions .ts,.tsx --ignore src/**/*.specs.tsx --out-dir build/esm --source-maps"
-  },
-  "engines": {
-    "node": "~20.x"
   },
   "prettier": {
     "printWidth": 80,
@@ -44,7 +42,7 @@
   "dependencies": {
     "@elastic/elasticsearch": "^8.13.1",
     "cloudinary": "^2.1.0",
-    "express": "^4.19.2",
+    "express": "^4.16.2",
     "http-status-code": "^2.1.0",
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
