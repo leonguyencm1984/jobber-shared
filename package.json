@@ -3,7 +3,6 @@
   "license": "UNLICENSED",
   "types": "./src/index.d.ts",
   "description": "Helpers library for Jobber app",
-  "type": "module",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm && tsc --outDir build/src && node scripts/build-package.js",
     "build:cjs": "NODE_ENV=production BABEL_ENV=cjs babel src --presets=./scripts/babel-preset.js --extensions .ts,.tsx --ignore src/**/*.specs.tsx --out-dir build/cjs --source-maps",
