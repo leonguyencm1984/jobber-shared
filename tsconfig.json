@@ -7,7 +7,7 @@
     "importHelpers": true,
     "lib": [
       "DOM",
-      "esnext"
+      "es2023"
     ],
     "module": "CommonJS",
     "moduleResolution": "node",
